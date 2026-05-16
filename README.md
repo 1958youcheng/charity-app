@@ -82,6 +82,11 @@ npx expo start
 
 A QR code will appear in the terminal.
 
+If your Expo Go timed out, run:
+```
+npx expo start --tunnel
+```
+
 ---
 
 ## Step 8 — Open on your phone
