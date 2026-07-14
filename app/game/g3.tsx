@@ -1,6 +1,6 @@
 import { ResizeMode, Video } from 'expo-av';
 import { useRouter } from 'expo-router';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import {
   Dimensions,
   Image,
@@ -34,15 +34,15 @@ interface Chapter {
 
 export default function Game3() {
   const router = useRouter();
-  const coverVideo = require('../../assets/game1/game3/cover.mp4');
+  const coverVideo = require('../../assets/game3/cover.mp4');
   const images = [
-    require('../../assets/game1/game3/view+q1+end.jpg'),
-    require('../../assets/game1/game3/q2.jpg'),
-    require('../../assets/game1/game3/q3.jpg'),
-    require('../../assets/game1/game3/q4.jpg'),
-    require('../../assets/game1/game3/q5.jpg'),
-    require('../../assets/game1/game3/q6.jpg'),
-    require('../../assets/game1/game3/view+q1+end.jpg'),
+    require('../../assets/game3/view+q1+end.jpg'),
+    require('../../assets/game3/q2.jpg'),
+    require('../../assets/game3/q3.jpg'),
+    require('../../assets/game3/q4.jpg'),
+    require('../../assets/game3/q5.jpg'),
+    require('../../assets/game3/q6.jpg'),
+    require('../../assets/game3/view+q1+end.jpg'),
   ];
 
   const [scene, setScene] = useState<'intro' | 'select' | 'story' | 'final'>(
