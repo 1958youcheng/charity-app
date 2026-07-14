@@ -39,13 +39,13 @@ export default function GameYilan() {
   const [feedbackText, setFeedbackText] = useState<string>('');
 
   // 🛠️ 圖片資源引入（可根據你的 assets 實際路徑與副檔名做調整）
-  const imgCover = require('../../assets/yilan/cover.jpg');
-  const imgYilan1 = require('../../assets/yilan/q1_station.jpg'); // 丟丟噹森林廣場/宜蘭火車站
-  const imgYilan2 = require('../../assets/yilan/q2_monument.jpg'); // 獻馘碑
-  const imgYilan3 = require('../../assets/yilan/q3_forest.jpg'); // 市民之森廣場
-  const imgYilan4 = require('../../assets/yilan/q4_memorial.jpg'); // 設治紀念館
-  const imgYilan5 = require('../../assets/yilan/q5_courtyard.jpg'); // 九芎埕
-  const imgYilan6 = require('../../assets/yilan/q6_museum.jpg'); // 宜蘭美術館
+  const imgCover = require('../../assets/game4/cover.jpg');
+  const imgYilan1 = require('../../assets/game4/q1.jpg'); // 丟丟噹森林廣場/宜蘭火車站
+  const imgYilan2 = require('../../assets/game4/q2.jpg'); // 獻馘碑
+  const imgYilan3 = require('../../assets/game4/q3.jpg'); // 市民之森廣場
+  const imgYilan4 = require('../../assets/game4/q4.jpg'); // 設治紀念館
+  const imgYilan5 = require('../../assets/game4/q5.jpg'); // 九芎埕
+  const imgYilan6 = require('../../assets/game4/q6.jpg'); // 宜蘭美術館
 
   const levels: Level[] = [
     {
