@@ -284,7 +284,7 @@ export default function GameYilan() {
         {currentLevelIndex === -1 ? (
           <ImageBackground source={imgCover} style={gameStyles.centerScreen}>
             <View style={gameStyles.darkOverlay}>
-              <Text style={gameStyles.mainTitle}>尋找噶瑪蘭之心</Text>
+              <Text style={gameStyles.mainTitle}>蘭亭其序</Text>
               <Text style={gameStyles.subTitle}>
                 穿梭宜蘭古今地標，用智慧解開歷史密碼
               </Text>
